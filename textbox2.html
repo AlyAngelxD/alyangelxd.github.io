@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CommuNet</title>
-    <link href="css/styles.css" rel="stylesheet">    
-  </head>
-  <img src="https://pbs.twimg.com/media/CJ6FQp6UYAAIboc.png"
-  
-  <div id="tfheader">
-		<form id="tfnewsearch" method="get" action="http://www.google.com">
-		        <input type="text" class="tftextinput" name="q" size="120" maxlength="120"><input type="submit" value="search" class="tfbutton">
-		</form>
-  
- 
-    
-    
-    
-    
-    
-    
-    
-    <h1>CommuNet is a website that connects you with all the other chat websites.</h>
-      <!--Search bar -->
+<head>
 <title>Search Box Example 1</title>
 <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
 <!-- CSS styles for standard search box -->
 <style type="text/css">
+	#tfheader{
+		background-color:#c3dfef;
+	}
 	#tfnewsearch{
 		float:right;
 		padding:20px;
@@ -61,6 +44,7 @@
 		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
 		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
 	}
+	/* Fixes submit button height problem in Firefox */
 	.tfbutton::-moz-focus-inner {
 	  border: 0;
 	}
@@ -68,21 +52,15 @@
 		clear:both;
 	}
 </style>
+</head>
+<body>
 	<!-- HTML for SEARCH BAR -->
-	
-    <ul>
-      <li>Skype</li>
-      <li>Yahoo! Messenger</li>
-      <li>Kik</li>
-      <li>TextNow</li>
-      <li>iMessage</li>
-      <li>Can't find it? Email us at 
-        <u>
-          <font color="blue">
-            <a href="https://mail.google.com/">communethelp@gmail.com</a>
-          </font>
-        </u>.
-      </li>
-    </ul>
-  </body>
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+</body>
 </html>
+

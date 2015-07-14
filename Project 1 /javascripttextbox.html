@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Box - default placeholder text gets cleared on cl</title>
+    <meta name="ROBOTS" content="NOINDEX", "NOFOLLOW" />
+    <!-- JAVASCRIPT to clear search text when the field is clicked -->
+    <script type="text/javascript">
+      window.onload = function () {
+        //Get submit button
+        var submitbutton = document. getElementById("tfq");
+        //Add listener to submit button
+        if (submitbutton.addEventListener) {
+          submitbutton.addEventListener("click", function () {
+            if (submitbutton.value == 'Search our website') {/ 
+              submitbutton.value = '';
+            }
+          });
+        }
+      }
+    </script>
+    <! --CSS styles for standard seach -->
+    style type = "text/css">
+    
+    <h1>Test</h1>
+  </head>
+</html>
